@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smart Sadak</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="logo">
+        <img src="images/logo.png" alt="Smart Sadak Logo" />
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#home"><i class="fas fa-home"></i> Home</a></li>
+          <li class="dropdown">
+            <a href="#"><i class="fas fa-th-list"></i> Features <i class="fas fa-caret-down"></i></a>
+            <ul class="dropdown-menu">
+              <li><a href="#chits"><i class="fas fa-id-card"></i> My Chits</a></li>
+              <li><a href="#violations"><i class="fas fa-exclamation-triangle"></i> Traffic Violations</a></li>
+              <li><a href="#rules"><i class="fas fa-book"></i> Traffic Rules</a></li>
+              <li><a href="#report"><i class="fas fa-flag"></i> Report Violation</a></li>
+              <li><a href="#traffic"><i class="fas fa-traffic-light"></i> Traffic Density</a></li>
+            </ul>
+          </li>
+          <li><a href="#about"><i class="fas fa-info-circle"></i> About Us</a></li>
+        </ul>
+      </nav>
+      <div class="user-profile">
+        <img src="images/user-avatar.png" alt="User Avatar" />
+        <span>John Doe</span>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+      <!-- Hero Section -->
+      <section id="home" class="hero">
+        <h1>Welcome to Smart Sadak</h1>
+        <p>Your one-stop solution for traffic management in Nepal.</p>
+        <a href="#chits" class="btn">Get Started</a>
+      </section>
+
+      <!-- My Chits Section -->
+      <section id="chits" class="section">
+        <h2>My Chits</h2>
+        <div class="chits-container">
+          <div class="chit-card">
+            <img src="images/driving-license.png" alt="Driving License" />
+            <h3>Driving License</h3>
+            <p>View and manage your driving license.</p>
+            <a href="license.html" class="btn">View Details</a>
+          </div>
+          <div class="chit-card">
+            <img src="images/vehicle-registration.png" alt="Vehicle Registration" />
+            <h3>Vehicle Registration</h3>
+            <p>Access your vehicle registration details.</p>
+            <a href="vehicle-registration.html" class="btn">View Details</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Traffic Violations Section -->
+      <section id="violations" class="section">
+        <h2>Traffic Violations</h2>
+        <div class="violations-container">
+          <div class="violation-card">
+            <img src="images/traffic-violation.png" alt="Traffic Violation" />
+            <h3>Check Violations</h3>
+            <p>View your traffic violation records.</p>
+            <a href="violations.html" class="btn">View Details</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Traffic Rules Section -->
+      <section id="rules" class="section">
+        <h2>Traffic Rules and Regulations</h2>
+        <div class="rules-container">
+          <div class="rule-card">
+            <img src="images/traffic-rules.png" alt="Traffic Rules" />
+            <h3>Learn Traffic Rules</h3>
+            <p>Understand the latest traffic rules and regulations.</p>
+            <a href="traffic-rules.html" class="btn">Learn More</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Report Violation Section -->
+      <section id="report" class="section">
+        <h2>Report Violation</h2>
+        <div class="report-container">
+          <div class="report-card">
+            <img src="images/report-violation.png" alt="Report Violation" />
+            <h3>Report a Violation</h3>
+            <p>Report traffic violations by other drivers.</p>
+            <a href="report.html" class="btn">Report Now</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Traffic Density Section -->
+      <section id="traffic" class="section">
+        <h2>Traffic Density</h2>
+        <div class="traffic-container">
+          <div class="traffic-card">
+            <img src="images/traffic-density.png" alt="Traffic Density" />
+            <h3>Check Traffic Density</h3>
+            <p>Find real-time traffic density on major roads.</p>
+            <a href="traffic-density.html" class="btn">Check Now</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Us Section -->
+      <section id="about" class="section">
+        <h2>About Us</h2>
+        <p>
+          Smart Sadak is a platform designed to make road management smarter and more efficient.
+          We provide tools for managing driving licenses, tracking traffic violations, learning
+          traffic rules, reporting violations, and checking real-time traffic density.
+        </p>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2023 Smart Sadak. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

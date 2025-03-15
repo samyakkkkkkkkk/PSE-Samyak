@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Traffic Density - Smart Sadak</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: 'Poppins', sans-serif;
+        background-color: #000; /* Black background */
+        margin: 0;
+        padding: 0;
+        color: #fff; /* White text for contrast */
+      }
+
+      header {
+        background-color: #fff; /* White header */
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      }
+
+      .logo img {
+        height: 100px; /* Maintain logo size */
+      }
+
+      nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        gap: 20px;
+      }
+
+      nav ul li a {
+        color: #2c3e50; /* Dark text for links */
+        text-decoration: none;
+        font-weight: 500;
+        transition: color 0.3s ease;
+      }
+
+      nav ul li a:hover {
+        color: #1abc9c; /* Accent color for hover */
+      }
+
+      main {
+        max-width: 800px;
+        margin: 40px auto;
+        padding: 20px;
+        background-color: #1a1a1a; /* Dark gray for main content */
+        border-radius: 10px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+        text-align: center;
+      }
+
+      h1 {
+        font-size: 28px;
+        font-weight: 600;
+        color: #fff; /* White heading */
+        margin-bottom: 20px;
+      }
+
+      p {
+        font-size: 16px;
+        color: #ccc; /* Light gray for text */
+        margin-bottom: 20px;
+      }
+
+      .btn {
+        background-color: #1abc9c; /* Accent color for button */
+        color: #fff;
+        padding: 12px 30px;
+        border: none;
+        border-radius: 6px;
+        font-size: 16px;
+        font-weight: 500;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        text-decoration: none;
+        display: inline-block;
+      }
+
+      .btn:hover {
+        background-color: #16a085; /* Darker accent for hover */
+      }
+
+      footer {
+        background-color: #fff; /* White footer */
+        padding: 20px;
+        text-align: center;
+        color: #2c3e50; /* Dark text for footer */
+        font-size: 14px;
+        margin-top: 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="images/logo.png" alt="Smart Sadak Logo" />
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="license.html">Driving License</a></li>
+          <li><a href="violations.html">Traffic Violations</a></li>
+          <li><a href="traffic-density.html">Traffic Density</a></li>
+          <li><a href="report.html">Report Violation</a></li>
+          <li><a href="traffic-rules.html">Traffic Rules</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+        <br><br><br><br>
+      <h1>Traffic Density</h1>
+      <p>Check real-time traffic density on Google Maps.</p>
+      <p>
+        <a href="https://www.google.com/maps/" target="_blank" class="btn"
+          >Open Google Maps</a
+        >
+      </p>
+    </main>
+
+    <footer>
+      <p>&copy; 2023 Smart Sadak. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

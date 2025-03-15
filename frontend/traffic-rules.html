@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Traffic Rules - Smart Sadak</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      /* General Styles */
+      body {
+        background-color: #121212;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      /* Header Styles (Updated to Match Previous Example) */
+      header {
+        background: white;
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      }
+
+      .logo img {
+        height: 100px; /* Adjusted to match previous example */
+      }
+
+      nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        gap: 20px;
+      }
+
+      nav ul li a {
+        color: #2c3e50; /* Dark text for links */
+        text-decoration: none;
+        font-weight: 500;
+        transition: color 0.3s ease;
+      }
+
+      nav ul li a:hover {
+        color: #1abc9c; /* Accent color for hover */
+      }
+
+      /* Main Content Styles */
+      .main-content {
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #1a1a1a; /* Dark background for content */
+        border-radius: 12px;
+        box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1); /* White shadow for contrast */
+      }
+
+      .page-title {
+        font-size: 2.5rem;
+        font-weight: 700;
+        color: #fff;
+        margin-bottom: 10px;
+      }
+
+      .page-description {
+        font-size: 1.1rem;
+        color: #ccc; /* Light gray for description */
+        margin-bottom: 30px;
+      }
+
+      /* Section Styles */
+      .traffic-rules-section {
+        margin-bottom: 30px;
+      }
+
+      .section-title {
+        font-size: 1.8rem;
+        font-weight: 600;
+        color: #fff;
+        margin-bottom: 15px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+
+      .rules-list {
+        list-style-type: none;
+        padding: 0;
+      }
+
+      .rule-item {
+        background-color: #333; /* Dark gray for list items */
+        margin-bottom: 10px;
+        padding: 12px 16px;
+        border-radius: 8px;
+        font-size: 1rem;
+        color: #fff;
+        transition: background-color 0.3s ease;
+      }
+
+      .rule-item:hover {
+        background-color: #444; /* Slightly lighter on hover */
+      }
+
+      /* Footer Styles (Updated to Match Previous Example) */
+      footer {
+        background: white;
+        padding: 20px;
+        text-align: center;
+        margin-top: 40px;
+      }
+
+      footer p {
+        color: #2c3e50; /* Dark text for footer */
+        margin: 0;
+        font-weight: 500;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Header (Updated to Match Previous Example) -->
+    <header>
+      <div class="logo">
+        <img src="images/logo.png" alt="Smart Sadak Logo" />
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="license.html">Driving License</a></li>
+          <li><a href="violations.html">Traffic Violations</a></li>
+          <li><a href="traffic-density.html">Traffic Density</a></li>
+          <li><a href="report.html">Report Violation</a></li>
+          <li><a href="traffic-rules.html" class="active">Traffic Rules</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <h1 class="page-title">Traffic Rules</h1>
+      <p class="page-description">Learn about the latest traffic rules and regulations to ensure road safety and avoid penalties.</p>
+
+      <section class="traffic-rules-section">
+        <h2 class="section-title">🚦 General Rules</h2>
+        <ul class="rules-list">
+          <li class="rule-item">Drivers must always keep their vehicle on the left side of the road.</li>
+          <li class="rule-item">Use proper indicators and hand signals when turning.</li>
+          <li class="rule-item">Follow all traffic lights and road signs strictly.</li>
+          <li class="rule-item">Maintain a safe distance between vehicles to prevent collisions.</li>
+          <li class="rule-item">Honking unnecessarily is prohibited in residential and hospital areas.</li>
+        </ul>
+      </section>
+
+      <section class="traffic-rules-section">
+        <h2 class="section-title">🚶‍♂️ Pedestrian Rules</h2>
+        <ul class="rules-list">
+          <li class="rule-item">Pedestrians must walk only on pavements and designated walkways.</li>
+          <li class="rule-item">Always cross roads at designated zebra crossings.</li>
+          <li class="rule-item">Do not jaywalk in traffic-congested areas.</li>
+          <li class="rule-item">Wait for the pedestrian signal before crossing at intersections.</li>
+          <li class="rule-item">Use footbridges or underpasses where available.</li>
+        </ul>
+      </section>
+
+      <section class="traffic-rules-section">
+        <h2 class="section-title">🚗 Speed Limits</h2>
+        <ul class="rules-list">
+          <li class="rule-item">Urban Areas: Maximum 50 km/h.</li>
+          <li class="rule-item">Highways: Maximum 80 km/h.</li>
+          <li class="rule-item">School Zones: Maximum 20 km/h.</li>
+          <li class="rule-item">Residential Areas: Maximum 30 km/h.</li>
+          <li class="rule-item">Heavy vehicles must maintain lower speed limits in city areas.</li>
+        </ul>
+      </section>
+
+      <section class="traffic-rules-section">
+        <h2 class="section-title">🚫 Prohibited Actions</h2>
+        <ul class="rules-list">
+          <li class="rule-item">Using mobile phones while driving is strictly prohibited.</li>
+          <li class="rule-item">Do not drive under the influence of alcohol or drugs.</li>
+          <li class="rule-item">Reckless driving and overtaking at blind curves is prohibited.</li>
+          <li class="rule-item">Do not park in no-parking zones or obstruct traffic.</li>
+          <li class="rule-item">Racing or performing stunts on public roads is illegal.</li>
+          <li class="rule-item">Vehicles emitting excessive smoke or noise pollution are not allowed.</li>
+        </ul>
+      </section>
+
+      <section class="traffic-rules-section">
+        <h2 class="section-title">📜 Driving License Regulations</h2>
+        <ul class="rules-list">
+          <li class="rule-item">All drivers must carry a valid driving license at all times.</li>
+          <li class="rule-item">New drivers must complete a probation period of one year.</li>
+          <li class="rule-item">Commercial drivers must undergo periodic medical fitness tests.</li>
+          <li class="rule-item">Driving without a valid license is punishable by law.</li>
+          <li class="rule-item">Renewal of a driving license must be done every five years.</li>
+        </ul>
+      </section>
+
+      <section class="traffic-rules-section">
+        <h2 class="section-title">📄 Vehicle Registration and Insurance</h2>
+        <ul class="rules-list">
+          <li class="rule-item">All vehicles must be registered with the Department of Transport Management.</li>
+          <li class="rule-item">Vehicle owners must renew their registration annually.</li>
+          <li class="rule-item">Third-party insurance is mandatory for all motor vehicles.</li>
+          <li class="rule-item">Vehicles without proper registration and insurance will be impounded.</li>
+          <li class="rule-item">Number plates must be clearly visible at all times.</li>
+        </ul>
+      </section>
+
+      <section class="traffic-rules-section">
+        <h2 class="section-title">💸 Penalties</h2>
+        <ul class="rules-list">
+          <li class="rule-item">Drunk Driving: NPR 5000 fine.</li>
+          <li class="rule-item">Speeding: NPR 1500 fine.</li>
+          <li class="rule-item">Red Light Violation: NPR 1000 fine.</li>
+          <li class="rule-item">No Helmet: NPR 500 fine.</li>
+          <li class="rule-item">Driving Without a License: NPR 2000 fine.</li>
+          <li class="rule-item">Overloading Passengers or Goods: NPR 3000 fine.</li>
+          <li class="rule-item">Using a Mobile Phone While Driving: NPR 1500 fine.</li>
+        </ul>
+      </section>
+    </main>
+
+    <!-- Footer (Updated to Match Previous Example) -->
+    <footer>
+      <p>&copy; 2023 Smart Sadak. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
